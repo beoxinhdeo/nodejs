@@ -23,6 +23,6 @@ app.get("/tinhtong/:so1/:so2", function(req,res)
     m = parseInt(m);
     
     var tong = n+m;
-    res.send("<font color=red >"+tong+"</font>")
+    res.send("<font color=green>"+tong+"</font>")
     //res.sendFile(__dirname + "/index.html")
 })
