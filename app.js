@@ -18,7 +18,6 @@ app.get("/tinhtong/:so1/:so2", function(req,res)
 {
     var n = req.params.so1;
     n = parseInt(n);
-    
     var m = req.params.so2;
     m = parseInt(m);
     
